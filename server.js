@@ -33,7 +33,7 @@ app.get('/nodejs', function (req, res) {
   'Content-Type': 'text/plain'
 })
   res.send(`Node.js backend: Hello! from ${message} commit ${code_hash}`);
-  // res.send(`Hello World! from ${ipaddress} in AZ-${az} which has been up for ` + process.uptime() + 'ms');
+  // res.send(`Hello World v2! from ${ipaddress} in AZ-${az} which has been up for ` + process.uptime() + 'ms');
 });
 
 app.get('/nodejs/api', function (req, res) {
